@@ -42,7 +42,7 @@ do
             Console.WriteLine("Deseja realizar outra Soma? S/N");
             anotherSum = Console.ReadLine();
 
-            switch (anotherSum)
+            switch (anotherSum.ToUpper())
             {
                 case "S":
                     willSum = false;
